@@ -1,0 +1,27 @@
+{
+  "name": "ipl-analytics-backend",
+  "version": "1.0.0",
+  "description": "IPL Analytics API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "ipl",
+    "cricket",
+    "analytics",
+    "express"
+  ],
+  "author": "Chandrashekhar Dhobare",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "csv-parser": "^3.2.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
